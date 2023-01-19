@@ -10,45 +10,75 @@
 
 <style>
     .content figure {
-      margin-left: 0;
-      margin-right: 0;
+        margin-left: 0;
+        margin-right: 0;
 
     }
+
     .hero {
-      color: #333333;
-      font-family: Palatino
+        color: #333333;
+        font-family: 'Times New Roman', Times, serif;
     }
-    
+
     .link {
-      color: #333333;
-      font-family: Palatino;
+        color: #333333;
+        font-family: 'Times New Roman', Times, serif;
     }
 
     .footer {
-      color: #333333;
-      font-family: Palatino;
+        color: #333333;
+        font-family: 'Times New Roman', Times, serif;
     }
 
     .photography {
-      color: #333333;
-      font-family: 'Times New Roman', Times, serif;
+        color: #333333;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    .journalism {
+        color: #333333;
+        font-family: 'Times New Roman', Times, serif;
     }
 
     .contact {
-      color: Red;
+        color: Red;
     }
-
-
-  </style>
+</style>
 
 <body>
-    <br>
-    <br>
-    <h1 class="title has-text-centered">Hi, I'm Kelly</h1>
-    <h2 class="subtitle has-text-centered"><br>I am a data journalist specializing in ..., and an occasional
-        photographer. I am based in NYC.</h2>
+    <section class="hero">
+        <div class="hero-body">
+            <p class="title">
+            Bonjour/hi, I'm Kelly.
+            </p>
+            <div class="column is-half is-multiline content">
+            <p class="subtitle">
+                I am a data journalist specializing in .... and an occasional photographer. I am based in NYC and currently pursuing a Masters in Data Journalism at Columbia Journalism School.
+            </p>
+            </div>
+        </div>
+    </section>
+    <section class="section journalism">
+        <h1 class="title has-text-centered">Projects</h1>
+        <div class="columns is-multiline content">
+            <div class="column is-one-third">
+              <h4>
+                <a class="link" href="https://kellywaldro.github.io/dublin_properties/" aria-label="Go to project on house prices in Dublin" target="_blank">
+                  <figure class="image is-3by2">
+                    <img alt="Property Prices in Dublin" src="./images/dublin.jpg">
+                  </figure>
+                  Residential Property Prices in Dublin 
+                </h4>
+                <p>Consolidating average prices across neighbourhoods in Co. Dublin from Ireland's largest property website.</a></p>
+                <div class="tags">
+                    <span class="tag has-background-info-light">Scraping</span>
+                    <span class="tag has-background-info-light">API</span>
+                    <span class="tag has-background-info-light">Python</span>
+                </div>
+    </section>
     <section class="section photography">
         <h1 class="title has-text-centered">Photography</h1>
+        <h1 class="subtitle is-italic has-text-centered">All images taken on 35mm film.</h1>
         <div class="columns">
             <div class="column">
                 <div>
@@ -90,7 +120,8 @@
                     <figure class="image is-2by3">
                         <img src="./images/koila_2.jpg">
                     </figure>
-                    <p>NAIVASHA, KENYA - View onto Lake Naivasha.</p>
+                    <p>NAROK COUNTY, KENYA - Koila, a man from the Maasai village, Maji Moto, sits on a rock to watch
+                        the sunset.</p>
                     <br>
                 </div>
             </div>
@@ -192,4 +223,3 @@
                 </div>
             </div>
         </div>
-        <h1 class="subtitle has-text-centered">All images taken on 35mm film.</h1>
