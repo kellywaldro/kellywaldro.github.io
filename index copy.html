@@ -8,7 +8,12 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
     <link rel="icon" type="image/png" href="images/moi.png" />
     <script src="https://kit.fontawesome.com/6630dd9732.js" crossorigin="anonymous"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
+
 
 <style>
     .content figure {
@@ -17,80 +22,92 @@
     }
 
     .body {
-        background-color: #FFF9F5;
+        /* background-color: #FFF9F5; */
+        background-color: white;
     }
 
     .hero {
         color: #000000;
-        background-color: #FFF9F5;
-        font-family: 'Montserrat', Helvetica, sans-serif;
-        max-width: 1000px;
+        background-color: white;
+        font-family: 'Titillium Web', sans-serif;
+        font-weight: bold;
+        padding-left: 8rem;
+        max-width: 750px;
     }
 
-    .title {
+    .name {
         color: #000000;
-        font-family: 'Montserrat', Helvetica, sans-serif;
+        font-family: Helvetica Neue, Arial, sans-serif;
+        font-weight: lighter;
+        font-size: xx-large;
+        padding-bottom: 30px;
+    }
+
+    /* .title {
+        color: #000000;
+        font-family: Helvetica Neue, Arial, sans-serif;
+        font-weight: lighter;
+    } */
+
+    .header {
+        color: #000000;
+        font-family: Helvetica Neue, Arial, sans-serif;
         font-size: x-large;
+        padding-bottom: 15px;
     }
 
     .subtitle {
         color: #000000;
-        font-family: 'Montserrat', Helvetica, sans-serif;
+        font-family: 'Titillium Web', sans-serif;
         font-size: large;
     }
 
     .project_title {
         color: #000000;
-        font-family: 'Montserrat', Helvetica, sans-serif;
+        font-family: 'Titillium Web', sans-serif;
         font-size: large;
         font-weight: bold;
     }
 
     .link {
         color: #000000;
-        font-family: 'Helvetica', Helvetica, sans-serif;
+        font-family: 'Titillium Web', sans-serif;
     }
 
     .sample {
-        background-color: white;
-        font-family: 'Helvetica', Helvetica, sans-serif;
+        padding-bottom: 25px;
+
     }
 
-    .footer {
-        color: #000000;
-        background-color: #FFF9F5;
-        font-family: 'Montserrat', Helvetica, sans-serif;
+    .caption {
+        padding-top: 5px;
     }
 
     .photography {
-        background-color: #FFF9F5;
+        background-color: white;
         color: #000000;
-        font-family: 'Courier New', Courier, monospace;
+        font-family: 'Titillium Web', sans-serif;
         font-size: small;
-
+        margin: 0 auto;
+        max-width: 1200px;
     }
 
     .journalism {
         color: #000000;
-        background-color: #FFF9F5;
-        font-family: 'Montserrat', Helvetica, sans-serif;
-        font-size: medium;
-        /* max-width: 1000; */
-        /* margin: 0 auto; */
+        background-color: white;
+        margin: 0 auto;
+        max-width: 1200px;
+
     }
 
     .contact {
         color: Red;
     }
 
-    .samples {
-        margin: 0 auto;
-        max-width: 1200px;
-    }
 
     .sampletitle {
         color: #000000;
-        font-family: 'Montserrat', Helvetica, sans-serif;
+        font-family: 'Titillium Web', sans-serif;
         font-size: large;
         font-weight: bold;
     }
@@ -98,6 +115,7 @@
     .description {
         margin: 0 auto;
         max-width: 500px;
+        padding-bottom: 5px;
         /* padding: 0 1rem; */
     }
 
@@ -108,45 +126,91 @@
 
     .tags {
         color: #000000;
-        font-family: 'Courier New', Courier, monospace;
-        font-weight: bold;
+
+
     }
 
     .socials {
-        font-family: 'Courier New', Courier, monospace;
+        font-family: Helvetica Neue, Arial, sans-serif;
+        color: #000000;
+    }
+
+    img {
+        box-shadow: 0 1.5px 5px 0 rgba(0, 0, 0, 0.2), 0 1.5px 5px 0 rgba(0, 0, 0, 0.2);
+    }
+
+    p {
+        font-family: 'Titillium Web', sans-serif;
+        font-size: 15px;
+    }
+
+    .footer {
+        color: #000000;
+        background-color: white;
+        font-family: 'Titillium Web', sans-serif;
+    }
+
+    .navbar {
+        color: #000000;
+        background-color: #9bd7c4;
+        max-height: 50px;
     }
 </style>
 
 <body class="body">
+
+    <!-- <nav class="navbar" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+            <a class="navbar-item subtitle" href="mailto:kelly.waldron@columbia.edu?subject=Reaching%20out&body=Hi%20Kelly%2C%0A%0A">
+               contact
+            </a>
+
+            <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+    </nav> -->
+
     <section class="hero">
-        <div class="hero-body has-text-centered">
+        <div class="hero-body">
             <div class="columns">
-                <div class="column is-half is-multiline content is-offset-half">
-                    <p class="title has-text-centered">
-                        Hi, I'm Kelly.
+                <div>
+
+
+                    <p class="name">
+                        Hello, I'm Kelly!
                     </p>
-                    <br>
+
                     <p class="subtitle">
-                        I am a French/Irish data <a class="link is-underlined" href="#journalist"> journalist</a>, and
-                        an occasional <a class="link is-underlined" href="#photography">photographer</a>, based in New York
-                        City. I am
+                        I am a geographer turned <a class="link is-underlined" href="#journalist">data
+                            journalist</a>,
+                        and
+                        an occasional <a class="link is-underlined" href="#photography">photographer</a>, based in New
+                        York.</p>
+
+                    <p class="subtitle">Before coming to journalism, I worked at a remote sensing
+                        company, analyzing measurements of methane using satellite technology. I love
+                        anything involving geospatial analysis or mapping, and am excited to use those tools to find and
+                        tell news
+                        stories.</p>
+
+
+                    <p class="subtitle">I am
                         currently pursuing a
                         Masters
                         in Data Journalism at Columbia Journalism School.</p>
-                        <br>
-                        <p class="subtitle">Before coming to journalism, I studied geography and worked at a remote sensing company. I love
-                        anything involving spatial analysis or mapping, and am excited to use those tools to find news
-                        stories.</p><br>
 
-                        <!-- <p><i class="fa-brands fa-twitter"></i> <i class="fa-brands fa-linkedin-in"></i> <i class="fa-brands fa-github"></i></p> -->
-                    <p class="has-text-centered socials"><a class="link"
-                            href="https://www.linkedin.com/in/kelly-anne-waldron/">linkedin</a> • <a class="link"
-                            href="https://github.com/kellywaldro">github</a> • <a class="link"
-                            href="https://twitter.com/kellywaldro">twitter</a> • <a class="link"
-                            href="https://drive.google.com/file/d/1ZE_49bzSPcB2mDNlG2YyfAX7kSxjipJE/view?usp=sharing">cv</a>
-                        • <a class="link"
-                            href="mailto:kelly.waldron@columbia.edu?subject=Reaching%20out&body=Hi%20Kelly%2C%0A%0A">email</a>
-                    </p>
+                    <p class="subtitle"><a class="link is-underlined"
+                            href="mailto:kelly.waldron@columbia.edu?subject=Reaching%20out&body=Hi%20Kelly%2C%0A%0A">Contact
+                            me</a></p>
+                    <p class="subtitle"><a class="link is-underlined" target="_blank">View my resume</a></p>
+
+
+                    <div class="tenor-gif-embed" data-postid="14989412" data-share-method="host" data-aspect-ratio="1"
+                        data-width="5%"></div>
+                    <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
                 </div>
             </div>
 
@@ -154,37 +218,105 @@
         </div>
     </section>
 
-    <section class="section journalism samples">
-        <h1 class="title has-text-centered">Selected Projects
-        </h1>
+    <section class="section journalism">
+        <p class="header">
+            Selected Projects
+        </p>
         <div class="columns is-multiline">
             <div class="column is-one-third">
-                <div class="article p-3">
-                    <h4>
-                      <a class="link" href="https://laurabejder.com/rain/" aria-label="Go to and read the article about how Denmark has become rainier." target="_blank">
-                        <figure class="image is-3by2">
-                          <img alt="SOOOOOOOMETHING" src="images/remittances.png">
-                        </figure>
-                        Has It Always Been This Rainy?
-                      </h4>
-                      <p>Since the late 19th century, Denmark has become 20 percent rainier. Climate change and higher temperatures have caused wetter winters and more extreme weather in the summers - a trend that is likely to continue in the future.</a></p>
-                      <div class="tags">
-                        <span class="tag is-info is-light">python/pandas</span>
-                        <span class="tag is-info is-light">illustrator</span>
-                        <span class="tag is-info is-light">HTML</span>
-                        <span class="tag is-info is-light">ai2html</span>
-                      </div>
-                    </div>    
-                  </div>
-            <div class="column is-one-third">
-                <div class="sample box">
+                <div class="sample">
                     <div class="description is-centered">
                         <a class="link" href="https://kellywaldro.github.io/gallery/"
                             aria-label="Go to view selected graphics" target="_blank">
                             <img src="./images/gallery.jpg" alt="Photo of a chart">
                     </div>
                     <h1 class="description sampletitle">Graphics Gallery</h1>
-                    <h2 class="description subtitle description">Playing around with different tools and datasets.</h2></a>
+                    <h2 class="description subtitle description">Playing around with different tools and datasets.</h2>
+                    </a>
+                    <div class="text tags">
+                        <strong>tools</strong>: python, pandas, ai2html
+                    </div>
+                </div>
+            </div>
+            <div class="column is-one-third">
+                <div class="sample">
+                    <div class="description is-centered">
+                        <a class="link" href="https://kellywaldro.github.io/macron-agenda/"
+                            aria-label="Go to view selected graphics" target="_blank">
+                            <img src="./images/agenda.jpg" alt="Photo of a chart">
+                    </div>
+                    <h1 class="description sampletitle">Macron's Agenda</h1>
+                    <h2 class="description subtitle">Scraping and analyzing the French president's offical agenda.</h2>
+                    </a>
+
+                    <div class="text tags">
+                        <strong>tools</strong>: BeautifulSoup, regex, ggplot, ai2html
+                    </div>
+                </div>
+            </div>
+
+            <div class="column is-one-third">
+                <div class="sample">
+                    <div class="description is-centered">
+                        <a class="link" href="https://kellywaldro.github.io/medical_emigration/"
+                            aria-label="Go to view selected graphics" target="_blank">
+                            <img src="./images/aus.jpg" alt="Photo of a chart">
+                    </div>
+                    <h1 class="description sampletitle">Irish Doctors in Aus</h1>
+                    <h2 class="description subtitle description">Australia Recruits the Doctors that Ireland Struggles
+                        to Retain</h2>
+                    </a>
+                    <div class="text tags">
+                        <strong>tools</strong>: pandas, rawgraphs
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="columns is-multiline">
+            <div class="column is-one-third">
+                <div class="sample">
+                    <div class="description is-centered">
+                        <a class="link" href="https://kellywaldro.github.io/processing-times"
+                            aria-label="Go to view selected graphics" target="_blank">
+                            <img src="./images/gallery.jpg" alt="Photo of a chart">
+                    </div>
+                    <h1 class="description sampletitle">Canadian Visa Processing Times</h1>
+                    <h2 class="description subtitle description">Tracking processing times for economic migration visas.
+                    </h2></a>
+                    <div class="text tags">
+                        <strong>tools</strong>: Playwright, Bokeh, GitHub Actions
+                    </div>
+                </div>
+            </div>
+            <div class="column is-one-third">
+                <div class="sample">
+                    <div class="description is-centered">
+                        <a class="link" href="https://kellywaldro.github.io/gallery/"
+                            aria-label="Go to view selected graphics" target="_blank">
+                            <img src="./images/dublin.jpg" alt="Photo of a chart">
+                    </div>
+                    <h1 class="description sampletitle">House Prices in Dublin</h1>
+                    <h2 class="description subtitle description">This is how much it costs to buy a house during the
+                        housing crisis.
+                    </h2></a>
+
+                    <div class="text tags">
+                        <strong>tools</strong>: Playwright, BeautifulSoup, Mapbox
+                    </div>
+                </div>
+            </div>
+
+            <div class="column is-one-third">
+                <div class="sample">
+                    <div class="description is-centered">
+                        <a class="link" href="https://kellywaldro.github.io/gallery/"
+                            aria-label="Go to view selected graphics" target="_blank">
+                            <img src="./images/plastic.jpg" alt="Photo of a chart">
+                    </div>
+                    <h1 class="description sampletitle">Plastics in Israel</h1>
+                    <h2 class="description subtitle description">Playing around with different tools and datasets.
+                    </h2></a>
                     <br>
                     <div class="tags description">
                         <span class="tag has-background-info-light">R</span>
@@ -194,235 +326,111 @@
                 </div>
             </div>
 
-            <div class="column is-one-third">
-                <div class="sample box">
-                    <div class="description is-centered">
-                        <a class="link" href="https://kellywaldro.github.io/medical_emigration/"
-                            aria-label="Go to view story on Irish doctors moving to Australia" target="_blank">
-                            <img src="./images/aus.jpg" alt="Photo of a chart">
-                    </div>
-                    <h1 class="description sampletitle">Irish Doctors in Australia</h1>
-                    <h2 class="description subtitle">Australia recruits the doctors that Ireland struggles to retain.
-                    </h2></a>
-                    <br>
-                    <div class="description tags">
-                        <span class="tag has-background-info-light">Reporting</span>
-                        <span class="tag has-background-info-light">Pandas</span>
-                        <span class="tag has-background-info-light">Illustator</span>
+
+            <div class="columns is-multiline">
+                <div class="column is-one-third">
+                    <div class="sample">
+                        <div class="description is-centered">
+                            <a class="link" href="https://kellywaldro.github.io/processing-times"
+                                aria-label="Go to view selected graphics" target="_blank">
+                                <img src="./images/gallery.jpg" alt="Photo of a chart">
+                        </div>
+                        <h1 class="description sampletitle">Canadian Visa Processing Times</h1>
+                        <h2 class="description subtitle description">Tracking processing times for economic migration
+                            visas.
+                        </h2></a>
+                        <div class="text tags">
+                            <strong>tools</strong>: Playwright, Bokeh, GitHub Actions
+                        </div>
                     </div>
                 </div>
-            </div>
-
-            <div class="column is-one-third">
-                <div class="sample box">
-                    <div class="description is-centered">
-                        <a class="link" href="https://kellywaldro.github.io/macron-agenda/"
-                            aria-label="Go to view story about Macron's agenda" target="_blank">
-                            <img src="./images/agenda.jpg" alt="Photo of a chart"s>
-                    </div>
-                    <h1 class="description sampletitle">Macron's Agenda</h1>
-                    <h2 class="description subtitle">A look into the presidential agenda and France's diplomatic
-                        relations.</h2></a>
+                <div class="column is-one-third">
+                    <div class="sample">
+                        <div class="description is-centered">
+                            <a class="link" href="https://kellywaldro.github.io/forest-city/"
+                                aria-label="Go to view selected graphics" target="_blank">
+                                <img src="./images/forest_city_beach.jpg" alt="Photo of a chart">
+                        </div>
+                        <h1 class="description sampletitle">An Investment in the Sand</h1>
+                        <h2 class="description subtitle description">What was supposed to be a new urban oasis is a
+                            ghost town.
+                        </h2></a>
                         <br>
-                    <div class="description tags">
-                        <span class="tag has-background-info-light">R</span>
-                        <span class="tag has-background-info-light">Scraping</span>
-                        <span class="tag has-background-info-light">Pandas</span>
+                        <div class="tags description">
+                            <span class="tag has-background-info-light">R</span>
+                            <span class="tag has-background-info-light">Illustrator</span>
+                            <span class="tag has-background-info-light">ai2html</span>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="column is-one-third">
-                <div class="sample box">
-                    <div class="description is-centered">
-                        <a class="link" href="https://kellywaldro.github.io/forest-city/"
-                            aria-label="Go to view story on Forest City" target="_blank">
-                            <img src="./images/forest_city_beach.jpg" alt="Photo of the beach in Forest City"
-                                width="360" height="220">
-                    </div>
-                    <h1 class="description sampletitle">An Investment in the Sand</h1>
-                    <h2 class="description subtitle">Reflections on a visit to a new urban development in Malaysia.</h2></a>
-                    <br>
-                    <div class="description tags">
-                        <span class="tag has-background-info-light">Writing</span>
-                        <span class="tag has-background-info-light">Datawrapper</span>
-                    </div>
-                </div>
-            </div>
-
-            <div class="column is-one-third">
-                <div class="sample box">
-                    <div class="description is-centered">
-                        <a class="link" href="https://kellywaldro.github.io/dublin_properties/"
-                            aria-label="Go to view house prices in Dublin" target="_blank">
-                            <img src="./images/dublin.jpg" alt="Photo of a map of dublin" width="360" height="220">
-                    </div>
-                    <h1 class="description sampletitle">House Prices in Dublin</h1>
-                    <h2 class="description  subtitle">Consolidating property listing prices on one interactive map.</h2></a>
-                    <br>
-                    <div class="description tags">
-                        <span class="tag has-background-info-light">Scraping</span>
-                        <span class="tag has-background-info-light">Pandas</span>
-                        <span class="tag has-background-info-light">Mapbox</span>
+                <div class="column is-one-third">
+                    <div class="sample">
+                        <div class="description is-centered">
+                            <a class="link" href="https://kellywaldro.github.io/forest-city/"
+                                aria-label="Go to view selected graphics" target="_blank">
+                                <img src="./images/forest_city_beach.jpg" alt="Photo of a chart">
+                        </div>
+                        <h1 class="description sampletitle">An Investment in the Sand</h1>
+                        <h2 class="description subtitle description">What was supposed to be a new urban oasis is a
+                            ghost town.
+                        </h2></a>
+                        <br>
+                        <div class="tags description">
+                            <span class="tag has-background-info-light">R</span>
+                            <span class="tag has-background-info-light">Illustrator</span>
+                            <span class="tag has-background-info-light">ai2html</span>
+                        </div>
                     </div>
                 </div>
-            </div>
 
     </section>
 
 
-    <section class="section photography"><a id="photography"></a>
-        <h1 class="title has-text-centered">Photography</h1>
-        <h1 class="subtitle is-italic has-text-centered">All images taken on 35mm film.<br></h1>
-        <div class="columns">
-            <div class="column">
-                <div>
-                    <figure class="image is-3by2">
-                        <img src="./images/kibale-min.jpg">
-                    </figure>
-                    <p>KIBALE NATIONAL PARK, UGANDA - Researchers stop to admire a chimpanzee in the rainforest.</p>
-                    <br>
-                </div>
+    <section class="section photography samples"><a id="photography"></a>
+        <p class="header">
+            Photography
+        </p>
+        <p class="subtitle">Check out my full portfolio <a class="link is-underlined"
+                href="https://kellywaldron.cargo.site/">here.</a></p>
+        <div class="columns is-multiline">
+            <div class="column is-one-third">
                 <div>
                     <figure class="image is-2by3">
-                        <img src="./images/bagamoyo-min.jpg">
+                        <img src="./images/nyc.jpg" alt='Photo of a woman watching the Labor Day Parade in New York, wearing a shirt that reads "We run New York" on the back.'>
                     </figure>
-                    <p>BAGAMOYO, TANZANIA - Morning sun on the Tanzanian coast.</p>
-                    <br>
-                </div>
-                <div>
-                    <figure class="image is-3by2">
-                        <img src="./images/market-min.jpg">
-                    </figure>
-                    <p>STONE TOWN, ZANZIBAR - A woman watches tourists walk through the market from the banana stall.
+                    <p class="caption">NEW YORK, NY - Watching the Labor Day Parade.
                     </p>
-                    <br>
-                </div>
-                <div>
-                    <figure class="image is-2by3">
-                        <img src="./images/havana.jpg">
-                    </figure>
-                    <p>HAVANA, CUBA - Children chat on the street corner.</p>
-                    <br>
-                </div>
-                <div>
-                    <figure class="image is-3by2">
-                        <img src="./images/naivasha-min.jpg">
-                    </figure>
-                    <p>NAIVASHA, KENYA - View onto Lake Naivasha.</p>
-                    <br>
-                </div>
-                <div>
-                    <figure class="image is-2by3">
-                        <img src="./images/koila_2-min.jpg">
-                    </figure>
-                    <p>NAROK COUNTY, KENYA - Koila, a man from Maji Moto, a Maasai village, sits on a rock to watch
-                        the sunset.</p>
-                    <br>
                 </div>
             </div>
-            <div class="column">
+            <div class="column is-one-third">
                 <div>
                     <figure class="image is-2by3">
-                        <img src="./images/zanzibar-min.jpg">
+                        <img src="./images/zanzibar.jpg" alt="Photo of people in the street in Stonetown, Zanzibar">
                     </figure>
-                    <p>STONE TOWN, ZANZIBAR - Seeking and avoiding shade.</p>
-                    <br>
-                </div>
-                <div>
-                    <figure class="image is-3by2">
-                        <img src="./images/concert-min.jpg">
-                    </figure>
-                    <p>BROOKLYN, NEW YORK - Stefani Bondari, performing at Pete's Candy Store.</p>
-                    <br>
-                </div>
-                <div>
-                    <figure class="image is-2by3">
-                        <img src="./images/stef-min.jpg">
-                    </figure>
-                    <p>MONTREAL, QUEBEC - Portrait of Stefani Bondari, a musician.</p>
-                    <br>
-                </div>
-                <div>
-                    <figure class="image is-3by2">
-                        <img src="./images/montroyal.jpg">
-                    </figure>
-                    <p>MONTREAL, QUEBEC - Tourists admire the view from the top of Mont Royal in February.</p>
-                    <br>
-                </div>
-                <div>
-                    <figure class="image is-2by3">
-                        <img src="./images/sheep.jpg">
-                    </figure>
-                    <p>CO. MAYO, IRELAND - Sheep on the road.</p>
-                    <br>
-                </div>
-
-                <div>
-                    <figure class="image is-3by2">
-                        <img src="./images/sunset-min.jpg">
-                    </figure>
-                    <p>BAGAMOYO, TANZANIA - Sunset swim in Bagamoyo.</p>
-                    <br>
+                    <p class="caption">STONE TOWN, ZANZIBAR - Seeking and avoiding shade.
+                    </p>
                 </div>
             </div>
-            <div class="column">
-                <div>
-                    <figure class="image is-3by2">
-                        <img src="./images/rollerskates.jpg">
-                    </figure>
-                    <p>MONTREAL, QUEBEC - A rollerskating group takes to Rue Mont Royal during the street's annual
-                        closure to vehicular traffic.</p>
-                    <br>
-                </div>
-                <div>
-                    <figure class="image is-3by2">
-                        <img src="./images/lafontaine.jpg">
-                    </figure>
-                    <p>MONTREAL, QUEBEC - Getting ready to ice skate at Parc LaFontaine.</p>
-                    <br>
-                </div>
+            <div class="column is-one-third">
                 <div>
                     <figure class="image is-2by3">
-                        <img src="./images/melaka.jpg">
+                        <img src="./images/akihabara.jpg"  alt="Photo of two people in the sun crossing the street in Akihabara, Tokyo">
                     </figure>
-                    <p>MELAKA, MALAYSIA - Tourists browse at a souvenir stall.</p>
-                    <br>
-                </div>
-                <div>
-                    <figure class="image is-3by2">
-                        <img src="./images/shinjuku.jpg">
-                    </figure>
-                    <p>TOKYO, JAPAN - A woman runs to get the train at Shinjuku station.</p>
-                    <br>
-                </div>
-                <div>
-                    <figure class="image is-3by2">
-                        <img src="./images/ouvert.jpg">
-                    </figure>
-                    <p>MONTREAL, QUEBEC - A late night dinner.</p>
-                    <br>
-                </div>
-                <div>
-                    <figure class="image is-3by2">
-                        <img src="./images/nightcamp.jpg">
-                    </figure>
-                    <p>JASPER, ALBERTA - Setting up camp before dark.</p>
-                    <br>
-                </div>
-                <div>
-                    <figure class="image is-2by3">
-                        <img src="./images/mea.jpg">
-                    </figure>
-                    <p>JERUSALEM - Men walk through Mea She'arim, an ultra-Orthodox neighborhood in the city.</p>
-                    <br>
+                    <p class="caption">TOKYO, JAPAN - A hot day in Akihabara.
+                    </p>
                 </div>
             </div>
         </div>
-        <footer class="footer">
-            <div class="content has-text-centered">
-                <p>
-                    © Kelly Waldron 2023
-                </p>
-            </div>
-        </footer>
+
+    </section>
+    <footer class="footer">
+        <div class="content has-text-centered">
+            <p>
+                <a class="link is-underlined" href="https://github.com/kellywaldro/kellywaldro.github.io" target="_blank">This website's code.</a>
+            </p>
+                    <p>
+                        © Kelly Waldron 2023
+                    </p>
+            
+    </footer>
