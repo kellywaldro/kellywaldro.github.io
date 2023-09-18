@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Kelly Waldron - Portfolio</title>
+    <link rel="icon" type="image/png" href="./images/moi.png"/>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fragment+Mono&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="story">
+        <h1 class="column">
+            Kelly Waldron
+        </h1>
+
+        <p class="column contact"><a target="_blank"
+                href="mailto:kelly.waldron@columbia.edu?subject=Reaching%20out&body=Hi%20Kelly%2C%0A%0A"><u>kelly@missionlocal.com</u></a>
+        </p>
+
+        <p class="column contact"><a target="_blank" href="https://github.com/kellywaldro"><u>GitHub</u></a> - <a
+                target="_blank" href="https://www.linkedin.com/in/kelly-anne-waldron/"><u>LinkedIn</u></a> - <a
+                target="_blank" href="https://twitter.com/kellywaldro"><u>Twitter</u></a> </p>
+
+        <p class="column">Bonjour/hi! I am a geographer turned data journalist. I work at Mission Local, an independent
+            news outlet focused on enterprise reporting, in the Mission District of San
+            Francisco.</p>
+        <p class="column">I am a graduate of McGill University and Columbia Journalism School, where I completed a
+            Master's in Data Journalism. Before coming to
+            journalism, I worked at a remote sensing company, analyzing measurements of methane using satellite
+            technology.</p>
+        <p class="column"> I love anything involving geospatial analysis or mapping, and am excited to use those tools
+            to find and tell news stories.</p>
+    </div>
+    <div class="column">
+
+        <h3><a class="tab-button" onclick="openTab('tab1')"><u>Data</u></a> <a class="tab-button"
+                onclick="openTab('tab2')"><u>Graphics</u></a> <a class="tab-button"
+                onclick="openTab('tab3')"><u>Writing</u></a></h3>
+
+    </div>
+
+    <section id="tab1" class="tab-content" style="display: none;">
+        <div class="column description">Projects where I have scraped and analyzed data using Python:
+        </div>
+        <div class="card">
+            <p class="column links"><u><a target="_blank" href="https://kellywaldro.github.io/macron-agenda/">The French
+                        president's daily agenda</u></a></p>
+            <div class="column description">The Élysée Palace publishes a daily agenda of what Emmanuel Macron is doing
+                every day. I used BeatuifulSoup to scrape it, to gather data on his activities for each day between May
+                2017
+                and April 2023. I used Python, pandas and regular expressions to analyze the dataset and see who he
+                meets
+                and which topics occur the most frequently.</div>
+            <div class="column"><img src="./images/macron.jpg" alt="Six ridge plots" class="responsive-image">
+            </div>
+        </div>
+        <hr class="column">
+        <div class="card">
+            <p class="column links"><u><a target="_blank"
+                        href="https://kellywaldro.github.io/dublin_properties/">Housing
+                        prices in Dublin</u></a></p>
+            <div class="column description">I used Playwright and BeautifulSoup to scrape daft.ie, a popular property
+                listing site in Ireland. I gathered house prices across Dublin, geocoded the address using the Google
+                Maps
+                API and aggrgated the data to display using Mapbox GL JS.</div>
+            <div class="column"><img src="./images/dublin.jpg"
+                    alt="Map of Dublin showing neighborhoods shaded based on house prices" class="responsive-image">
+            </div>
+            <hr class="column">
+            <div class="last card">
+                <p class="column links"><u><a target="_blank"
+                            href="https://github.com/kellywaldro/processing-times">Canadian visa processing times (work
+                            in progress)</u></a></p>
+                <div class="column description">I used Playwright to interact with dropdown menus on Immigration
+                    Canada's website, to BeautifulSoup to scrape estimated processing times for different economic visa
+                    categories. Using Bokeh, I build the framework for a dashboard that can auto update. I am working to
+                    get the automated part working, and expand the scraper to include other visa categories.</div>
+                <div class="column"><img src="./images/processing.jpg" alt="Line chart with various lines"
+                        class="responsive-image">
+                </div>
+            </div>
+    </section>
+
+    <section id="tab2" class="tab-content" style="display: none;">
+        <div class="column description">A handful of standalone graphics I have made for different stories:
+        </div>
+        <div class="column graphic">
+
+
+            <div id="g-mapedits-box" class="ai2html">
+
+                <!-- Artboard: Artboard_1 -->
+                <div id="g-mapedits-Artboard_1" class="g-artboard" style="width:600px; height:624.187737446027px;"
+                    data-aspect-ratio="0.961" data-min-width="600">
+                    <div style=""></div>
+                    <img id="g-mapedits-Artboard_1-img" class="g-mapedits-Artboard_1-img g-aiImg" alt=""
+                        src="./images/mapedits-Artboard_1.jpg" />
+                    <div id="g-ai0-1" class="g-Layer_1 g-aiAbs g-aiPointText"
+                        style="top:3.5133%;margin-top:-17.9px;left:-0.0185%;width:174px;">
+                        <p class="g-pstyle0">Born Abroad</p>
+                    </div>
+                    <div id="g-ai0-2" class="g-Layer_1 g-aiAbs g-aiPointText"
+                        style="top:10.3435%;margin-top:-20.6px;left:0.2856%;width:319px;">
+                        <p class="g-pstyle1">The US is home to over 44 million people </p>
+                        <p class="g-pstyle1">who were born outside of the country. </p>
+                    </div>
+                    <div id="g-ai0-3" class="g-Layer_1 g-aiAbs g-aiPointText"
+                        style="top:18.7599%;margin-top:-8.1px;left:51.3906%;width:284px;">
+                        <p class="g-pstyle2">Foreign born population, as a percentage of total.</p>
+                    </div>
+                    <div id="g-ai0-4" class="g-Layer_1 g-aiAbs g-aiPointText"
+                        style="top:23.0215%;margin-top:-29.7px;left:-0.0216%;width:164px;">
+                        <p class="g-pstyle2">At over 26%, California</p>
+                        <p class="g-pstyle2">has the largest percentage</p>
+                        <p class="g-pstyle2">of foreign born residents </p>
+                        <p class="g-pstyle2">of any state. </p>
+                    </div>
+                    <div id="g-ai0-5" class="g-Layer_1 g-aiAbs g-aiPointText"
+                        style="top:23.7473%;margin-top:-7.2px;left:50.624%;width:29px;">
+                        <p class="g-pstyle3">0</p>
+                    </div>
+                    <div id="g-ai0-6" class="g-Layer_1 g-aiAbs g-aiPointText"
+                        style="top:23.7473%;margin-top:-7.2px;left:93.5734%;width:36px;">
+                        <p class="g-pstyle3">54</p>
+                    </div>
+                    <div id="g-ai0-7" class="g-Layer_1 g-aiAbs g-aiPointText"
+                        style="top:31.8009%;margin-top:-22.5px;left:44.3263%;width:269px;">
+                        <p class="g-pstyle2">West Virginia has the smallest share of foreign</p>
+                        <p class="g-pstyle2">born residents, 1.6% of the total population. </p>
+                    </div>
+                    <div id="g-ai0-8" class="g-Layer_1 g-aiAbs g-aiPointText"
+                        style="top:93.5131%;margin-top:-29.7px;left:51.6918%;width:169px;">
+                        <p class="g-pstyle2">Miami-Dade County has </p>
+                        <p class="g-pstyle2">more foreign born residents</p>
+                        <p class="g-pstyle2">than any other county, over</p>
+                        <p class="g-pstyle2">53% of the total population.</p>
+                    </div>
+                </div>
+
+                <!-- Artboard: Artboard_2 -->
+                <div id="g-mapedits-Artboard_2" class="g-artboard" style="max-width: 401px;max-height: 541px"
+                    data-aspect-ratio="0.742" data-min-width="0" data-max-width="599">
+                    <div style="padding: 0 0 134.8227% 0;"></div>
+                    <img id="g-mapedits-Artboard_2-img" class="g-mapedits-Artboard_2-img g-aiImg" alt=""
+                        src="./images/mapedits-Artboard_2.jpg" />
+                    <div id="g-ai1-1" class="g-Layer_1 g-aiAbs g-aiPointText"
+                        style="top:2.7615%;margin-top:-17.9px;left:-0.3725%;width:174px;">
+                        <p class="g-pstyle0">Born Abroad</p>
+                    </div>
+                    <div id="g-ai1-2" class="g-Layer_1 g-aiAbs" style="top:6.2889%;left:0%;width:92.5187%;">
+                        <p class="g-pstyle1">The US is home to over 44 million people who were born outside
+                            the country.</p>
+                    </div>
+                    <div id="g-ai1-3" class="g-Layer_1 g-aiAbs g-aiPointText"
+                        style="top:11.4272%;margin-top:-9.8px;left:2.6125%;width:30px;">
+                        <p class="g-pstyle2"> </p>
+                    </div>
+                    <div id="g-ai1-4" class="g-Layer_1 g-aiAbs g-aiPointText"
+                        style="top:16.4213%;margin-top:-9.8px;left:24.0171%;width:328px;">
+                        <p class="g-pstyle2">Foreign born population, as a percentage of total.</p>
+                    </div>
+                    <div id="g-ai1-5" class="g-Layer_1 g-aiAbs g-aiPointText"
+                        style="top:22.6081%;margin-top:-7.2px;left:91.069%;width:36px;">
+                        <p class="g-pstyle3">54</p>
+                    </div>
+                    <div id="g-ai1-6" class="g-Layer_1 g-aiAbs g-aiPointText"
+                        style="top:22.608%;margin-top:-7.2px;left:26.8054%;width:29px;">
+                        <p class="g-pstyle3">0</p>
+                    </div>
+                    <div id="g-ai1-7" class="g-Layer_1 g-aiAbs g-aiPointText"
+                        style="top:29.9085%;margin-top:-29.7px;left:0.5331%;width:164px;">
+                        <p class="g-pstyle4">At over 26%, California</p>
+                        <p class="g-pstyle4">has the largest percentage</p>
+                        <p class="g-pstyle4">of foreign born residents </p>
+                        <p class="g-pstyle4">of any state. </p>
+                    </div>
+                    <div id="g-ai1-8" class="g-Layer_1 g-aiAbs g-aiPointText"
+                        style="top:38.195%;margin-top:-22.5px;left:37.5818%;width:269px;">
+                        <p class="g-pstyle4">West Virginia has the smallest share of foreign</p>
+                        <p class="g-pstyle4">born residents, 1.6% of the total population. </p>
+                    </div>
+                    <div id="g-ai1-9" class="g-Layer_1 g-aiAbs g-aiPointText"
+                        style="top:95.3866%;margin-top:-29.7px;left:42.345%;width:169px;">
+                        <p class="g-pstyle4">Miami-Dade County has </p>
+                        <p class="g-pstyle4">more foreign born residents</p>
+                        <p class="g-pstyle4">than any other county, over</p>
+                        <p class="g-pstyle4">53% of the total population.</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- End ai2html - 2023-09-17 20:21 -->
+
+
+        </div>
+        <p class="column" style="text-align:center"><small>Source: American Community Survey, 2018. Created using QGIS,
+                Adobe
+                Illustrator and ai2html.</p>
+        </div>
+
+        </div>
+        <hr class="column">
+        <div class="column graphic">
+
+            <div id="g-locator_map-box" class="ai2html">
+
+                <!-- Artboard: Artboard_1 -->
+                <div id="g-locator_map-Artboard_1" class="g-artboard" style="width:600px; height:450px;"
+                    data-aspect-ratio="1.333" data-min-width="600">
+                    <div style=""></div>
+                    <img id="g-locator_map-Artboard_1-img" class="g-locator_map-Artboard_1-img g-aiImg" alt=""
+                        src="https://missionloca.s3.amazonaws.com/mission/wp-content/uploads/2023/09/locator_map-Artboard_1.jpg" />
+                    <div id="g-ai0-1" class="g-Layer_1 g-aiAbs g-aiPointText"
+                        style="transform: matrix(0.1694,0.9855,-0.9855,0.1694,0,0);transform-origin: 50% 56.174998492432%;-webkit-transform: matrix(0.1694,0.9855,-0.9855,0.1694,0,0);-webkit-transform-origin: 50% 56.174998492432%;-ms-transform: matrix(0.1694,0.9855,-0.9855,0.1694,0,0);-ms-transform-origin: 50% 56.174998492432%;top:20.6883%;margin-top:-8.1px;left:56.8205%;margin-left:-32.5px;width:65px;">
+                        <p class="g-pstyle0">Capp St</p>
+                    </div>
+                    <div id="g-ai0-2" class="g-Layer_1 g-aiAbs g-aiPointText"
+                        style="transform: matrix(0.3151,0.9491,-0.9491,0.3151,0,0);transform-origin: 50% 56.174998492432%;-webkit-transform: matrix(0.3151,0.9491,-0.9491,0.3151,0,0);-webkit-transform-origin: 50% 56.174998492432%;-ms-transform: matrix(0.3151,0.9491,-0.9491,0.3151,0,0);-ms-transform-origin: 50% 56.174998492432%;top:31.7994%;margin-top:-8.1px;left:81.9842%;margin-left:-54px;width:108px;">
+                        <p class="g-pstyle0">S Van Ness Ave</p>
+                    </div>
+                    <div id="g-ai0-3" class="g-Layer_1 g-aiAbs" style="top:30.4444%;left:38.0609%;width:21.8333%;">
+                        <p><span class="g-cstyle0">1:45 a.m.</span>: Officers responded after 5 pedestrians were
+                            struck
+                            by a
+                            vehicle.</p>
+                    </div>
+                    <div id="g-ai0-4" class="g-Layer_1 g-aiAbs g-aiPointText"
+                        style="top:35.1771%;margin-top:-15.3px;left:11.7401%;margin-left:-38.5px;width:77px;">
+                        <p class="g-pstyle0">MISSION</p>
+                        <p class="g-pstyle0">DISTRICT</p>
+                    </div>
+                    <div id="g-ai0-5" class="g-Layer_1 g-aiAbs g-aiPointText"
+                        style="transform: matrix(0.9917,-0.1289,0.1289,0.9917,0,0);transform-origin: 50% 56.174998492432%;-webkit-transform: matrix(0.9917,-0.1289,0.1289,0.9917,0,0);-webkit-transform-origin: 50% 56.174998492432%;-ms-transform: matrix(0.9917,-0.1289,0.1289,0.9917,0,0);-ms-transform-origin: 50% 56.174998492432%;top:46.6883%;margin-top:-8.1px;left:73.6354%;margin-left:-31.5px;width:63px;">
+                        <p class="g-pstyle0">19th St.</p>
+                    </div>
+                    <div id="g-ai0-6" class="g-Layer_1 g-aiAbs" style="top:57.1111%;left:44.2796%;width:39.6667%;">
+                        <p><span class="g-cstyle0">1:57 a.m.</span>: Officers responded to another collision,
+                            this
+                            time
+                            between two
+                            vehicles. One of the drivers was allegedly responsible for the previous incident.
+                        </p>
+                    </div>
+                    <div id="g-ai0-7" class="g-Layer_1 g-aiAbs g-aiPointText"
+                        style="transform: matrix(0,1,-1,0,0,0);transform-origin: 50% 56.174998492432%;-webkit-transform: matrix(0,1,-1,0,0,0);-webkit-transform-origin: 50% 56.174998492432%;-ms-transform: matrix(0,1,-1,0,0,0);-ms-transform-origin: 50% 56.174998492432%;top:66.0216%;margin-top:-8.1px;left:34.4839%;margin-left:-36px;width:72px;">
+                        <p class="g-pstyle0">Mission St</p>
+                    </div>
+                </div>
+
+                <!-- Artboard: Artboard_2 -->
+                <div id="g-locator_map-Artboard_2" class="g-artboard" style="max-width: 282px;max-height: 409px"
+                    data-aspect-ratio="0.69" data-min-width="0" data-max-width="599">
+                    <div style="padding: 0 0 144.8825% 0;"></div>
+                    <img id="g-locator_map-Artboard_2-img" class="g-locator_map-Artboard_2-img g-aiImg" alt=""
+                        src="https://missionloca.s3.amazonaws.com/mission/wp-content/uploads/2023/09/locator_map-Artboard_2.jpg" />
+                    <div id="g-ai1-1" class="g-Layer_1 g-aiAbs g-aiPointText"
+                        style="top:15.4923%;margin-top:-15.3px;left:13.6754%;margin-left:-38.5px;width:77px;">
+                        <p class="g-pstyle0">MISSION</p>
+                        <p class="g-pstyle0">DISTRICT</p>
+                    </div>
+                    <div id="g-ai1-2" class="g-Layer_1 g-aiAbs g-aiPointText"
+                        style="transform: matrix(0.1694,0.9855,-0.9855,0.1694,0,0);transform-origin: 50% 57.2311277452157%;-webkit-transform: matrix(0.1694,0.9855,-0.9855,0.1694,0,0);-webkit-transform-origin: 50% 57.2311277452157%;-ms-transform: matrix(0.1694,0.9855,-0.9855,0.1694,0,0);-ms-transform-origin: 50% 57.2311277452157%;top:30.0842%;margin-top:-6.9px;left:49.0591%;margin-left:-29px;width:58px;">
+                        <p class="g-pstyle1">Capp St</p>
+                    </div>
+                    <div id="g-ai1-3" class="g-Layer_1 g-aiAbs g-aiPointText"
+                        style="transform: matrix(0.3151,0.9491,-0.9491,0.3151,0,0);transform-origin: 50% 57.2316384180791%;-webkit-transform: matrix(0.3151,0.9491,-0.9491,0.3151,0,0);-webkit-transform-origin: 50% 57.2316384180791%;-ms-transform: matrix(0.3151,0.9491,-0.9491,0.3151,0,0);-ms-transform-origin: 50% 57.2316384180791%;top:39.1401%;margin-top:-6.9px;left:82.0366%;margin-left:-46.5px;width:93px;">
+                        <p class="g-pstyle1">S Van Ness Ave</p>
+                    </div>
+                    <div id="g-ai1-4" class="g-Layer_1 g-aiAbs" style="top:36.224%;left:27.6737%;width:44.6809%;">
+                        <p><span class="g-cstyle0">1:45 a.m.</span>: Officers responded after 5 pedestrians were
+                            struck
+                            by a
+                            vehicle.</p>
+                    </div>
+                    <div id="g-ai1-5" class="g-Layer_1 g-aiAbs g-aiPointText"
+                        style="transform: matrix(0.9917,-0.1289,0.1289,0.9917,0,0);transform-origin: 50% 57.2311277452157%;-webkit-transform: matrix(0.9917,-0.1289,0.1289,0.9917,0,0);-webkit-transform-origin: 50% 57.2311277452157%;-ms-transform: matrix(0.9917,-0.1289,0.1289,0.9917,0,0);-ms-transform-origin: 50% 57.2311277452157%;top:50.8885%;margin-top:-6.9px;left:76.3771%;margin-left:-28px;width:56px;">
+                        <p class="g-pstyle1">19th St.</p>
+                    </div>
+                    <div id="g-ai1-6" class="g-Layer_1 g-aiAbs" style="top:53.1123%;left:32.7794%;width:47.1631%;">
+                        <p><span class="g-cstyle0">1:57 a.m.</span>: Officers responded to another collision,
+                            this
+                            time
+                            between two
+                            vehicles. One of the drivers was allegedly responsible for the previous incident.
+                        </p>
+                    </div>
+                    <div id="g-ai1-7" class="g-Layer_1 g-aiAbs g-aiPointText"
+                        style="transform: matrix(0,1,-1,0,0,0);transform-origin: 50% 57.2311277452157%;-webkit-transform: matrix(0,1,-1,0,0,0);-webkit-transform-origin: 50% 57.2311277452157%;-ms-transform: matrix(0,1,-1,0,0,0);-ms-transform-origin: 50% 57.2311277452157%;top:65.3292%;margin-top:-6.9px;left:20.7447%;margin-left:-32px;width:64px;">
+                        <p class="g-pstyle1">Mission St</p>
+                    </div>
+
+                </div>
+
+                <p style="text-align:center"><small>Created using first-hand reporting with Adobe Illustrator,
+                        <a href='https://www.mapbox.com/'>Mapbox</a> and ai2html.</small></p>
+                <br>
+                <br>
+                <br>
+            </div>
+
+            <hr class="column">
+
+            <!-- End ai2html - 2023-09-12 14:40 -->
+
+            <div class="column graphic">
+
+                <div id="g-remittances-box" class="ai2html">
+
+                    <!-- Artboard: Artboard_1 -->
+                    <div id="g-remittances-Artboard_1-600" class="g-artboard"
+                        style="width:600px; height:469.788040659532px;" data-aspect-ratio="1.277" data-min-width="600">
+                        <div style=""></div>
+                        <img id="g-remittances-Artboard_1-600-img" class="g-remittances-Artboard_1-img g-aiImg" alt=""
+                            src="./images/remittances-Artboard_1-600.png" />
+                        <div id="g-ai0-1" class="g-Layer_1 g-aiAbs g-aiPointText"
+                            style="top:2.3332%;margin-top:-15px;left:0%;width:545px;">
+                            <p class="g-pstyle0">Financial flows to low and middle income countries</p>
+                        </div>
+                        <div id="g-ai0-2" class="g-Layer_1 g-aiAbs g-aiPointText"
+                            style="top:12.5299%;margin-top:-19.9px;left:0.0692%;width:389px;">
+                            <p class="g-pstyle1"><span class="g-cstyle0">Remittances </span>are a vital
+                                mechanism of
+                                development </p>
+                            <p class="g-pstyle1">in low and middle income countries<span class="g-cstyle1">.</span>
+                            </p>
+                        </div>
+                        <div id="g-ai0-3" class="g-Layer_1 g-aiAbs g-aiPointText"
+                            style="top:27.6252%;margin-top:-9.8px;left:2.0898%;width:336px;">
+                            <p class="g-pstyle2">Remittances surpassed FDI during the pandemic. </p>
+                        </div>
+                        <div id="g-ai0-4" class="g-Layer_1 g-aiAbs g-aiPointText"
+                            style="top:41.0697%;margin-top:-26.9px;left:72.0314%;width:97px;">
+                            <p class="g-pstyle3">Foreign </p>
+                            <p class="g-pstyle3">Direct </p>
+                            <p class="g-pstyle3">Investment</p>
+                        </div>
+                        <div id="g-ai0-5" class="g-Layer_1 g-aiAbs g-aiPointText"
+                            style="top:68.1458%;margin-top:-10.1px;left:72.1476%;width:107px;">
+                            <p class="g-pstyle3">Remittances</p>
+                        </div>
+                        <div id="g-ai0-6" class="g-Layer_1 g-aiAbs g-aiPointText"
+                            style="top:89.0062%;margin-top:-10.1px;left:72.1701%;width:101px;">
+                            <p class="g-pstyle3">Foreign Aid</p>
+                        </div>
+                        <div id="g-ai0-7" class="g-Layer_1 g-aiAbs g-aiPointText"
+                            style="top:NaN%;margin-top:-NaNpx;left:94.5581%;width:22px;">
+                            <p>&nbsp;</p>
+                        </div>
+                        <div id="g-ai0-8" class="g-Layer_1 g-aiAbs g-aiPointText"
+                            style="top:94.9444%;margin-top:-9px;left:0.0002%;width:49px;">
+                            <p class="g-pstyle4">1990</p>
+                        </div>
+                        <div id="g-ai0-9" class="g-Layer_1 g-aiAbs g-aiPointText"
+                            style="top:94.9444%;margin-top:-9px;left:31.8212%;width:49px;">
+                            <p class="g-pstyle4">2000</p>
+                        </div>
+                        <div id="g-ai0-10" class="g-Layer_1 g-aiAbs g-aiPointText"
+                            style="top:94.9444%;margin-top:-9px;left:63.6509%;width:49px;">
+                            <p class="g-pstyle4">2010</p>
+                        </div>
+                        <div id="g-ai0-11" class="g-Layer_1 g-aiAbs g-aiPointText"
+                            style="top:94.9444%;margin-top:-9px;left:95.4715%;width:49px;">
+                            <p class="g-pstyle4">2020</p>
+                        </div>
+                        <div id="g-ai0-12" class="g-Layer_1 g-aiAbs g-aiPointText"
+                            style="top:97.2986%;margin-top:-8.1px;left:0.1957%;width:129px;">
+                            <p class="g-pstyle5">Source: World Bank</p>
+                        </div>
+                    </div>
+
+                    <!-- Artboard: Artboard_1 -->
+                    <div id="g-remittances-Artboard_1-375" class="g-artboard" style="max-width: 375px;max-height: 515px"
+                        data-aspect-ratio="0.728" data-min-width="0" data-max-width="599">
+                        <div style="padding: 0 0 137.3333% 0;"></div>
+                        <img id="g-remittances-Artboard_1-375-img" class="g-remittances-Artboard_1-img g-aiImg" alt=""
+                            src="./images/remittances-Artboard_1-375.png" />
+                        <div id="g-ai1-1" class="g-Layer_1 g-aiAbs g-aiPointText"
+                            style="top:4.8368%;margin-top:-23.9px;left:0.4554%;width:316px;">
+                            <p class="g-pstyle0">Financial flows to low and middle </p>
+                            <p class="g-pstyle0">income countries</p>
+                        </div>
+                        <div id="g-ai1-2" class="g-Layer_1 g-aiAbs g-aiPointText"
+                            style="top:12.6563%;margin-top:-18.2px;left:0.4629%;width:392px;">
+                            <p class="g-pstyle1"><span class="g-cstyle0">Remittances </span>are a vital
+                                mechanism of
+                                development in low </p>
+                            <p class="g-pstyle1">and middle income countries<span class="g-cstyle1">.</span></p>
+                        </div>
+                        <div id="g-ai1-3" class="g-Layer_1 g-aiAbs g-aiPointText"
+                            style="top:36.1514%;margin-top:-18.2px;left:12.4486%;width:183px;">
+                            <p class="g-pstyle1">Remittances surpassed </p>
+                            <p class="g-pstyle1">FDI during the pandemic. </p>
+                        </div>
+                        <div id="g-ai1-4" class="g-Layer_1 g-aiAbs g-aiPointText"
+                            style="top:55.7167%;margin-top:-26.9px;left:69.3325%;width:97px;">
+                            <p class="g-pstyle2">Foreign </p>
+                            <p class="g-pstyle2">Direct </p>
+                            <p class="g-pstyle2">Investment</p>
+                        </div>
+                        <div id="g-ai1-5" class="g-Layer_1 g-aiAbs g-aiPointText"
+                            style="top:77.3089%;margin-top:-10.1px;left:69.808%;width:106px;">
+                            <p class="g-pstyle2">Remittances</p>
+                        </div>
+                        <div id="g-ai1-6" class="g-Layer_1 g-aiAbs g-aiPointText"
+                            style="top:90.5127%;margin-top:-10.1px;left:69.8247%;width:100px;">
+                            <p class="g-pstyle2">Foreign Aid</p>
+                        </div>
+                        <div id="g-ai1-7" class="g-Layer_1 g-aiAbs g-aiPointText"
+                            style="top:NaN%;margin-top:-NaNpx;left:93.6351%;width:22px;">
+                            <p>&nbsp;</p>
+                        </div>
+                        <div id="g-ai1-8" class="g-Layer_1 g-aiAbs g-aiPointText"
+                            style="top:94.7646%;margin-top:-9px;left:94.2036%;width:43px;">
+                            <p class="g-pstyle3">2020</p>
+                        </div>
+                        <div id="g-ai1-9" class="g-Layer_1 g-aiAbs g-aiPointText"
+                            style="top:94.7646%;margin-top:-9px;left:62.5252%;width:43px;">
+                            <p class="g-pstyle3">2010</p>
+                        </div>
+                        <div id="g-ai1-10" class="g-Layer_1 g-aiAbs g-aiPointText"
+                            style="top:94.7646%;margin-top:-9px;left:31.3715%;width:43px;">
+                            <p class="g-pstyle3">2000</p>
+                        </div>
+                        <div id="g-ai1-11" class="g-Layer_1 g-aiAbs g-aiPointText"
+                            style="top:94.7646%;margin-top:-9px;left:0.1072%;width:43px;">
+                            <p class="g-pstyle3">1990</p>
+                        </div>
+                        <div id="g-ai1-12" class="g-Layer_1 g-aiAbs g-aiPointText"
+                            style="top:97.3004%;margin-top:-8.1px;left:0.9015%;width:128px;">
+                            <p class="g-pstyle4">Source: World Bank</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- End ai2html - 2023-09-17 11:41 -->
+                <p style="text-align:center"><small>Created using Rawgraphs, Adobe Illustrator and
+                        ai2html.</small>
+                </p>
+            </div>
+
+    </section>
+
+    <section id="tab3" class="tab-content" style="display: none;">
+        <div class="column description">Selected recent articles:</div>
+        <div class="card">
+            <p class="column links"><a target="_blank"
+                    href="https://atmos.earth/plastic-politics-in-the-holy-land/"><u>Plastic
+                        politics in the Holy Land (Atmos Magazine)</u></a></p>
+            <div class="column description">A story on single-use plastics: a point of contention
+                between ultra-Orthodox and secular jews in Israel. Reported and written over a 10 day reporting trip to
+                Israel and the Palestinian Territories, thanks to funding from the Scripps Howard Foundation.</div>
+            <div class="column"><img src="./images/plastics.jpg" alt="A man crosses the street in front of a car in Jerusalem"
+                    class="responsive-image"></div>
+        </div>
+        <hr class="column">
+
+        <div class="last card">
+            <p class="column links"><a target="_blank"
+                    href="https://missionlocal.org/2023/09/people-we-meet-jenny-reyes-from-breakfast-little/"><u>People
+                        We Meet: Jenny Reyes (Mission Local)</u></a></p>
+            <div class="column description">Profile on Jenny Reyes.</div>
+            <div class="column"><img src="./images/jenny.jpg" alt="Jenny Reyes stands at the cash register"
+                    class="responsive-image">
+            </div>
+        </div>
+
+
+    </section>
+
+    <script>
+        function openTab(tabId) {
+            // Hide all tab content
+            const tabContents = document.querySelectorAll('.tab-content');
+            tabContents.forEach(content => {
+                content.style.display = 'none';
+            });
+
+            // Show the selected tab content
+            const selectedTab = document.getElementById(tabId);
+            if (selectedTab) {
+                selectedTab.style.display = 'block';
+            }
+        }
+    </script>
+
+
+</body>
+
+
+</html>
