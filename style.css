@@ -102,10 +102,7 @@ h3 {
 	margin-top: 40px;
 }
 
-.headshot {
-	width: 100px;
-	height: 100px;
-}
+
 
 /* Apply different styles for different screen widths */
 @media screen and (min-width: 300px) {
