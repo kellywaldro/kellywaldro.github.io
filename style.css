@@ -102,6 +102,28 @@ h3 {
 	margin-top: 40px;
 }
 
+.graphictitle {
+	font-size: 18px;
+	font-family: 'Arial', sans-serif;
+	font-weight: bold;
+	margin-bottom: 10px;	
+}
+
+.label1 {
+	background-color: #99cc99;
+	/* opacity: .8; */
+}
+
+
+.label2 {
+	background-color: #ffcc66;
+	/* opacity: .8; */
+}
+
+.label3 {
+	background-color: #fc8e62;
+	/* opacity: .8; */
+}
 
 
 /* Apply different styles for different screen widths */
@@ -254,180 +276,115 @@ h3 {
 
 
 /* These are the styles for ai2html */
-#g-remittances-Artboard_1-600,
-#g-remittances-Artboard_1-375 {
+#g-remittances-Artboard_2,
+#g-remittances-Artboard_1 {
 	display: none;
 }
 
 @media (max-width: 1050px) {
-	#g-remittances-Artboard_1-375 {
+	#g-remittances-Artboard_2 {
 		display: block;
 	}
 }
 
 @media (min-width: 1050px) {
-	#g-remittances-Artboard_1-600 {
+	#g-remittances-Artboard_1 {
 		display: block;
 	}
 }
 
+#g-remittances-box ,
+	#g-remittances-box .g-artboard {
+		margin:0 auto;
+	}
+	#g-remittances-box p {
+		margin:0;
+	}
+	#g-remittances-box .g-aiAbs {
+		position:absolute;
+	}
+	#g-remittances-box .g-aiImg {
+		position:absolute;
+		top:0;
+		display:block;
+		width:100% !important;
+	}
+	#g-remittances-box .g-aiSymbol {
+		position: absolute;
+		box-sizing: border-box;
+	}
+	#g-remittances-box .g-aiPointText p { white-space: nowrap; }
+	#g-remittances-Artboard_1 {
+		position:relative;
+		overflow:hidden;
+	}
+	#g-remittances-Artboard_1 p {
+		font-family:arial,helvetica,sans-serif;
+		font-weight:bold;
+		line-height:17px;
+		height:auto;
+		opacity:1;
+		letter-spacing:0em;
+		font-size:14px;
+		text-align:left;
+		color:rgb(0,0,0);
+		text-transform:none;
+		padding-bottom:0;
+		padding-top:0;
+		mix-blend-mode:normal;
+		font-style:normal;
+		position:static;
+	}
+	#g-remittances-Artboard_1 .g-pstyle0 {
+		height:17px;
+	}
+	#g-remittances-Artboard_1 .g-pstyle1 {
+		font-weight:500;
+		line-height:14px;
+		height:14px;
+		font-size:12px;
+	}
+	#g-remittances-Artboard_1 .g-pstyle2 {
+		line-height:14px;
+		height:14px;
+		font-size:12px;
+	}
+	#g-remittances-Artboard_2 {
+		position:relative;
+		overflow:hidden;
+	}
+	#g-remittances-Artboard_2 p {
+		font-family:arial,helvetica,sans-serif;
+		font-weight:bold;
+		line-height:17px;
+		height:auto;
+		opacity:1;
+		letter-spacing:0em;
+		font-size:14px;
+		text-align:left;
+		color:rgb(0,0,0);
+		text-transform:none;
+		padding-bottom:0;
+		padding-top:0;
+		mix-blend-mode:normal;
+		font-style:normal;
+		position:static;
+	}
+	#g-remittances-Artboard_2 .g-pstyle0 {
+		height:17px;
+	}
+	#g-remittances-Artboard_2 .g-pstyle1 {
+		font-weight:500;
+		line-height:14px;
+		height:14px;
+		font-size:12px;
+	}
+	#g-remittances-Artboard_2 .g-pstyle2 {
+		line-height:14px;
+		height:14px;
+		font-size:12px;
+	}
 
-
-#g-remittances-box,
-#g-remittances-box .g-artboard {
-	margin: 0 auto;
-}
-
-#g-remittances-box p {
-	margin: 0;
-}
-
-#g-remittances-box .g-aiAbs {
-	position: absolute;
-}
-
-#g-remittances-box .g-aiImg {
-	position: absolute;
-	top: 0;
-	display: block;
-	width: 100% !important;
-}
-
-#g-remittances-box .g-aiSymbol {
-	position: absolute;
-	box-sizing: border-box;
-}
-
-#g-remittances-box .g-aiPointText p {
-	white-space: nowrap;
-}
-
-#g-remittances-Artboard_1-600 {
-	position: relative;
-	overflow: hidden;
-}
-
-#g-remittances-Artboard_1-600 p {
-	font-family: arial, helvetica, sans-serif;
-	line-height: 18px;
-	height: auto;
-	opacity: 1;
-	letter-spacing: 0em;
-	font-size: 15px;
-	text-align: left;
-	color: rgb(0, 0, 0);
-	text-transform: none;
-	padding-bottom: 0;
-	padding-top: 0;
-	mix-blend-mode: normal;
-	font-style: normal;
-	position: static;
-}
-
-#g-remittances-Artboard_1-600 .g-pstyle0 {
-	font-weight: bold;
-	line-height: 25px;
-	height: 25px;
-	font-size: 21px;
-}
-
-#g-remittances-Artboard_1-600 .g-pstyle1 {
-	height: 18px;
-}
-
-#g-remittances-Artboard_1-600 .g-pstyle2 {
-	line-height: 17px;
-	height: 17px;
-	font-size: 14px;
-}
-
-#g-remittances-Artboard_1-600 .g-pstyle3 {
-	font-weight: bold;
-	line-height: 17px;
-	height: 17px;
-	font-size: 14px;
-}
-
-#g-remittances-Artboard_1-600 .g-pstyle4 {
-	font-weight: 500;
-	line-height: 14px;
-	height: 14px;
-	font-size: 12px;
-}
-
-#g-remittances-Artboard_1-600 .g-pstyle5 {
-	line-height: 14px;
-	height: 14px;
-	font-size: 12px;
-}
-
-#g-remittances-Artboard_1-600 .g-cstyle0 {
-	font-weight: bold;
-}
-
-#g-remittances-Artboard_1-600 .g-cstyle1 {
-	font-weight: 500;
-	font-size: 14px;
-}
-
-#g-remittances-Artboard_1-375 {
-	position: relative;
-	overflow: hidden;
-}
-
-#g-remittances-Artboard_1-375 p {
-	font-family: arial, helvetica, sans-serif;
-	line-height: 17px;
-	height: auto;
-	opacity: 1;
-	letter-spacing: 0em;
-	font-size: 14px;
-	text-align: left;
-	color: rgb(0, 0, 0);
-	text-transform: none;
-	padding-bottom: 0;
-	padding-top: 0;
-	mix-blend-mode: normal;
-	font-style: normal;
-	position: static;
-}
-
-#g-remittances-Artboard_1-375 .g-pstyle0 {
-	font-weight: bold;
-	line-height: 22px;
-	height: 22px;
-	font-size: 18px;
-}
-
-#g-remittances-Artboard_1-375 .g-pstyle1 {
-	height: 17px;
-}
-
-#g-remittances-Artboard_1-375 .g-pstyle2 {
-	font-weight: bold;
-	height: 17px;
-}
-
-#g-remittances-Artboard_1-375 .g-pstyle3 {
-	font-weight: 500;
-	line-height: 14px;
-	height: 14px;
-	font-size: 12px;
-}
-
-#g-remittances-Artboard_1-375 .g-pstyle4 {
-	line-height: 14px;
-	height: 14px;
-	font-size: 12px;
-}
-
-#g-remittances-Artboard_1-375 .g-cstyle0 {
-	font-weight: bold;
-}
-
-#g-remittances-Artboard_1-375 .g-cstyle1 {
-	font-weight: 500;
-}
 
 /* MAP */
 
@@ -554,106 +511,93 @@ h3 {
 
 /* POLICE CHART */
 
-	/* These are the styles for ai2html */
-	#g-final_version_split-Artboard_1,
-	#g-final_version_split-Artboard_2 {
-		display: none;
-	}
+#g-beeswarm-Artboard_1,
+#g-beeswarm-Artboard_2 {
+	display: none;
+}
 
-	@media (max-width: 1050px) {
-		#g-final_version_split-Artboard_2 {
-			display: block;
-		}
+@media (max-width: 1050px) {
+	#g-beeswarm-Artboard_2 {
+		display: block;
 	}
+}
 
-	@media (min-width: 1050px) {
-		#g-final_version_split-Artboard_1 {
-			display: block;
-		}
+@media (min-width: 1050px) {
+	#g-beeswarm-Artboard_1 {
+		display: block;
 	}
-	
-	#g-final_version_split-box ,
-	#g-final_version_split-box .g-artboard {
-		margin:0 auto;
-	}
-	#g-final_version_split-box p {
-		margin:0;
-	}
-	#g-final_version_split-box .g-aiAbs {
-		position:absolute;
-	}
-	#g-final_version_split-box .g-aiImg {
-		position:absolute;
-		top:0;
-		display:block;
-		width:100% !important;
-	}
-	#g-final_version_split-box .g-aiSymbol {
-		position: absolute;
-		box-sizing: border-box;
-	}
-	#g-final_version_split-box .g-aiPointText p { white-space: nowrap; }
-	#g-final_version_split-Artboard_1 {
-		position:relative;
-		overflow:hidden;
-	}
-	#g-final_version_split-Artboard_1 p {
-		font-family:arial,helvetica,sans-serif;
-		line-height:14px;
-		opacity:1;
-		letter-spacing:0em;
-		font-size:12px;
-		text-align:left;
-		color:rgb(0,0,0);
-		text-transform:none;
-		padding-bottom:0;
-		padding-top:0;
-		mix-blend-mode:normal;
-		font-style:normal;
-		height:auto;
-		position:static;
-	}
-	#g-final_version_split-Artboard_1 .g-pstyle0 {
-		font-weight:bold;
-		line-height:22px;
-		font-size:18px;
-	}
-	#g-final_version_split-Artboard_1 .g-pstyle1 {
-		height:14px;
-	}
-	#g-final_version_split-Artboard_1 .g-cstyle0 {
-		font-weight:bold;
-	}
-	#g-final_version_split-Artboard_2 {
-		position:relative;
-		overflow:hidden;
-	}
-	#g-final_version_split-Artboard_2 p {
-		font-family:arial,helvetica,sans-serif;
-		line-height:14px;
-		opacity:1;
-		letter-spacing:0em;
-		font-size:12px;
-		text-align:left;
-		color:rgb(0,0,0);
-		text-transform:none;
-		padding-bottom:0;
-		padding-top:0;
-		mix-blend-mode:normal;
-		font-style:normal;
-		height:auto;
-		position:static;
-	}
-	#g-final_version_split-Artboard_2 .g-pstyle0 {
-		font-weight:bold;
-		line-height:19px;
-		font-size:16px;
-	}
-	#g-final_version_split-Artboard_2 .g-pstyle1 {
-		height:14px;
-	}
-	#g-final_version_split-Artboard_2 .g-cstyle0 {
-		font-weight:bold;
-	}
+}
 
-
+#g-beeswarm-box ,
+#g-beeswarm-box .g-artboard {
+	margin:0 auto;
+}
+#g-beeswarm-box p {
+	margin:0;
+}
+#g-beeswarm-box .g-aiAbs {
+	position:absolute;
+}
+#g-beeswarm-box .g-aiImg {
+	position:absolute;
+	top:0;
+	display:block;
+	width:100% !important;
+}
+#g-beeswarm-box .g-aiSymbol {
+	position: absolute;
+	box-sizing: border-box;
+}
+#g-beeswarm-box .g-aiPointText p { white-space: nowrap; }
+#g-beeswarm-Artboard_1 {
+	position:relative;
+	overflow:hidden;
+}
+#g-beeswarm-Artboard_1 p {
+	font-family:arial,helvetica,sans-serif;
+	line-height:14px;
+	opacity:1;
+	letter-spacing:0em;
+	font-size:12px;
+	text-align:left;
+	color:rgb(0,0,0);
+	text-transform:none;
+	padding-bottom:0;
+	padding-top:0;
+	mix-blend-mode:normal;
+	font-style:normal;
+	height:auto;
+	position:static;
+}
+#g-beeswarm-Artboard_1 .g-pstyle0 {
+	height:14px;
+}
+#g-beeswarm-Artboard_1 .g-cstyle0 {
+	font-weight:bold;
+}
+#g-beeswarm-Artboard_2 {
+	position:relative;
+	overflow:hidden;
+}
+#g-beeswarm-Artboard_2 p {
+	font-family:arial,helvetica,sans-serif;
+	line-height:14px;
+	opacity:1;
+	letter-spacing:0em;
+	font-size:12px;
+	text-align:left;
+	color:rgb(0,0,0);
+	text-transform:none;
+	padding-bottom:0;
+	padding-top:0;
+	mix-blend-mode:normal;
+	font-style:normal;
+	height:auto;
+	position:static;
+}
+#g-beeswarm-Artboard_2 .g-pstyle0 {
+	height:14px;
+}
+#g-beeswarm-Artboard_2 .g-cstyle0 {
+	font-weight:bold;
+}
