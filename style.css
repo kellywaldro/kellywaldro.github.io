@@ -125,6 +125,20 @@ h3 {
 	/* opacity: .8; */
 }
 
+.responsive-iframe-container {
+    position: relative;
+    overflow: hidden;
+    padding-top: 85%; /* 16:9 aspect ratio (adjust as needed) */
+}
+
+.responsive-iframe-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
 
 /* Apply different styles for different screen widths */
 @media screen and (min-width: 300px) {
