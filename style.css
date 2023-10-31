@@ -651,3 +651,125 @@ h3 {
 #g-beeswarm-Artboard_2 .g-cstyle0 {
 	font-weight: bold;
 }
+
+
+#g-cavities-Artboard_1,
+#g-cavities-Artboard_2 {
+	display: none;
+}
+
+@media (max-width: 1050px) {
+	#g-cavities-Artboard_2 {
+		display: block;
+	}
+}
+
+@media (min-width: 1050px) {
+	#g-cavities-Artboard_1 {
+		display: block;
+	}
+}
+
+	#g-cavities-box ,
+	#g-cavities-box .g-artboard {
+		margin:0 auto;
+	}
+	#g-cavities-box p {
+		margin:0;
+	}
+	#g-cavities-box .g-aiAbs {
+		position:absolute;
+	}
+	#g-cavities-box .g-aiImg {
+		position:absolute;
+		top:0;
+		display:block;
+		width:100% !important;
+	}
+	#g-cavities-box .g-aiSymbol {
+		position: absolute;
+		box-sizing: border-box;
+	}
+	#g-cavities-box .g-aiPointText p { white-space: nowrap; }
+	#g-cavities-Artboard_1 {
+		position:relative;
+		overflow:hidden;
+	}
+	#g-cavities-Artboard_1 p {
+		font-family:arial,helvetica,sans-serif;
+		/* font-weight:bold; */
+		line-height:25px;
+		height:auto;
+		opacity:1;
+		letter-spacing:0em;
+		font-size:21px;
+		text-align:left;
+		color:rgb(0,0,0);
+		text-transform:none;
+		padding-bottom:0;
+		padding-top:0;
+		mix-blend-mode:normal;
+		font-style:normal;
+		position:static;
+	}
+	#g-cavities-Artboard_1 .g-pstyle0 {
+		height:25px;
+	}
+	#g-cavities-Artboard_1 .g-pstyle1 {
+		line-height:14px;
+		height:14px;
+		font-size:12px;
+	}
+	#g-cavities-Artboard_1 .g-pstyle2 {
+		line-height:14px;
+		height:14px;
+		font-size:12px;
+		text-align:center;
+	}
+	#g-cavities-Artboard_1 .g-pstyle3 {
+		line-height:16px;
+		height:16px;
+		font-size:13px;
+		text-align:center;
+	}
+	#g-cavities-Artboard_2 {
+		position:relative;
+		overflow:hidden;
+	}
+	#g-cavities-Artboard_2 p {
+		font-family:arial,helvetica,sans-serif;
+		line-height:16px;
+		height:auto;
+		opacity:1;
+		letter-spacing:0em;
+		font-size:13px;
+		text-align:left;
+		color:rgb(0,0,0);
+		text-transform:none;
+		padding-bottom:0;
+		padding-top:0;
+		mix-blend-mode:normal;
+		font-style:normal;
+		position:static;
+	}
+	#g-cavities-Artboard_2 .g-pstyle0 {
+		font-weight:bold;
+		line-height:22px;
+		height:22px;
+		font-size:18px;
+	}
+	#g-cavities-Artboard_2 .g-pstyle1 {
+		line-height:14px;
+		height:14px;
+		font-size:12px;
+	}
+	#g-cavities-Artboard_2 .g-pstyle2 {
+		line-height:14px;
+		height:14px;
+		font-size:12px;
+		text-align:center;
+	}
+	#g-cavities-Artboard_2 .g-pstyle3 {
+		height:16px;
+		text-align:center;
+	}
