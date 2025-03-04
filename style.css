@@ -13,7 +13,7 @@
 h1 {
 	font-size: 30px;
 	line-height: 1.1;
-	font-family: 'Roboto Mono', monospace;
+	font-family: 'Barlow', sans-serif;
 }
 
 .bio {
@@ -26,7 +26,7 @@ h1 {
 	font-size: 19px;
 	line-height: 1.25;
 	/* font-family: 'Fragment Mono', monospace; */
-	font-family: 'Roboto Mono', monospace;
+	font-family: 'Barlow', monospace;
 	color: #676a47;
 	text: is-underlined;
 }
@@ -48,7 +48,7 @@ hr {
 .contact {
 	font-size: 16px;
 	line-height: 1.25;
-	font-family: 'Roboto Mono', monospace;
+	font-family: 'Barlow', sans-serif;
 	color: #676a47;
 	text: is-underlined;
 }
@@ -57,7 +57,7 @@ hr {
 .byline {
 	text-align: center;
 	font-weight: bold;
-	font-family: 'Roboto Mono', monospace;
+	font-family: 'Barlow', sans-serif;
 	font-size: 16px;
 	text-transform: uppercase;
 }
@@ -69,19 +69,19 @@ hr {
 
 .description {
 	font-size: 14px;
-	font-family: 'Roboto Mono', monospace;
+	font-family: 'Barlow', sans-serif;
 }
 
 
 p {
-	font-size: 14px;
+	font-size: 16px;
 	line-height: 1.25;
-	font-family: 'Roboto Mono', monospace;
+	font-family: 'Barlow', sans-serif;
 }
 
 h3 {
 	font-size: 24px;
-	font-family: 'Roboto Mono', monospace;
+	font-family: 'Barlow', sans-serif;
 }
 
 .source {
