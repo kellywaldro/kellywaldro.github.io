@@ -249,7 +249,6 @@ hr {
   /* Individual tag */
   .tag {
 	background-color: #e4ede4;
-	color: #5c6e5c;
 	font-size: 12px;
 	padding: 4px 8px;
 	border-radius: 12px;
@@ -258,12 +257,7 @@ hr {
 	transition: background-color 0.2s;
   }
   
-  .tag:hover {
-	background-color: #adc1a5;
-	color: white;
-	cursor: default;
-  }
-  
+
 
   .portfolio-grid a {
 	text-decoration: none;       /* removes underline */
