@@ -2,102 +2,192 @@
 <html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Kelly Waldron - Portfolio</title>
-  <link rel="icon" type="image/png" href="./images/moi.png" />
-  <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Kelly Waldron - Portfolio</title>
+    <link rel="icon" type="image/png" href="./images/moi.png" />
+    <link rel="stylesheet" href="style.css">
 
-  <!-- Google Fonts (Consolidated) -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Fragment+Mono&family=Roboto+Mono:wght@300&family=Barlow:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
-    rel="stylesheet">
+    <!-- Google Fonts (Consolidated) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fragment+Mono&family=Roboto+Mono:wght@300&family=Barlow:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
 
-  <div class="story">
-    <h1 class="column">Kelly Waldron</h1>
+    <div class="story">
+        <h1 class="column">Kelly Waldron</h1>
 
-    <p class="column contact">
-      <a target="_blank"
-        href="mailto:kae.waldron@gmail.com?subject=Reaching%20out&body=Hi%20Kelly%2C%0A%0A">
-        <u>kae.waldron@gmail.com</u>
-      </a>
-    </p>
+        <p class="column contact">
+            <a target="_blank" href="mailto:kae.waldron@gmail.com?subject=Reaching%20out&body=Hi%20Kelly%2C%0A%0A">
+                <u>kae.waldron@gmail.com</u>
+            </a>
+        </p>
 
-    <p class="column contact">
-      <a target="_blank" href="https://github.com/kellywaldro"><u>GitHub</u></a> –
-      <a target="_blank" href="https://www.linkedin.com/in/kelly-anne-waldron/"><u>LinkedIn</u></a> –
-      <a target="_blank" href="https://bsky.app/profile/kellywaldron.bsky.social"><u>Bluesky</u></a>
-    </p>
+        <p class="column contact">
+            <a target="_blank" href="https://github.com/kellywaldro"><u>GitHub</u></a> –
+            <a target="_blank" href="https://www.linkedin.com/in/kelly-anne-waldron/"><u>LinkedIn</u></a> –
+            <a target="_blank" href="https://bsky.app/profile/kellywaldron.bsky.social"><u>Bluesky</u></a>
+        </p>
 
-    <p class="column">
-      Hello! I am a geographer turned data journalist. I work at Mission Local, an independent news outlet focused on
-      enterprise reporting in San Francisco.
-    </p>
+        <p class="column">
+            I am a geographer turned data journalist. I work at Mission Local, an independent news outlet focused on
+            enterprise reporting in San Francisco.
+        </p>
 
-    <p class="column">
-      I am a graduate of McGill University and Columbia Journalism School, where I completed a Master's in Data
-      Journalism. Before coming to journalism, I worked at a remote sensing company, analyzing measurements of methane
-      using satellite technology.
-    </p>
-  </div>
-
-  <div class="column">
-    <h5>Recent work</h5>
-  </div>
-
-  <section id="tab1" class="tab-content">
-    <div class="card">
-      <p class="column links">
-        San Francisco's election results
-        <a target="_blank"
-          href="https://missionlocal.org/2024/11/election-2024-see-results-across-san-francisco/">
-          <u>(Mission Local)</u>
-        </a>
-      </p>
-      <div class="column description">Tools: Python, Mapbox, HTML, CSS, Javascript, Datatables, pym.js</div>
+        <p class="column">
+            I am a graduate of McGill University and Columbia Journalism School, where I completed a Master's in Data
+            Journalism. Before coming to journalism, I worked at a remote sensing company, analyzing measurements of
+            methane
+            using satellite technology.
+        </p>
     </div>
 
-    <hr class="column">
-
-    <div class="card">
-      <p class="column links">
-        Explore: How did your neighbors vote in the November 2024 election?
-        <a target="_blank"
-          href="https://missionlocal.org/2024/12/sf-election-november-2024-how-did-your-neighbors-vote/">
-          <u>(Mission Local)</u>
-        </a>
-      </p>
-      <div class="column description">Tools: Mapbox, HTML, CSS, Javascript, pym.js</div>
+    <div class="column">
+        <h5>Recent work</h5>
     </div>
 
-    <hr class="column">
+    <div class="portfolio-grid">
 
-    <div class="card">
-      <p class="column links">
-        How redistricting impacted races in the S.F. general election
-        <a target="_blank"
-          href="https://missionlocal.org/2024/11/s-f-election-takeaways-redistricting-likely-cost-dean-preston-benefitted-myrna-melgar/">
-          <u>(Mission Local)</u>
+        <a href="https://missionlocal.org/2025/07/sf-bayview-unaccepted-streets/" target="_blank" class="portfolio-card">
+            <div class="image-wrapper">
+                <img src="images/unaccepted.jpg" alt="Election results map">
+            </div>
+            <p class="source-label">Mission Local</p>
+            <h3>S.F.’s forgotten roads: Bayview has 1/4 of the city’s ‘unaccepted streets’</h3>
+            <p class="description">I analyzed records obtained via a records requests that show how the city's "unaccepted streets" - that are not officialy recognized by the city, are more concentrated in one neighborhood.</p>
+            <div class="tag-list">
+                <span class="tag">Python</span>
+                <span class="tag">Geopandas</span>
+                <span class="tag">QGIS</span>
+                <span class="tag">Illustrator</span>
+            </div>
         </a>
-      </p>
-      <div class="column description">Tools: QGIS, Illustrator, ai2html</div>
+
+        <a href="https://missionlocal.org/2025/05/what-does-the-mayor-directly-control-in-s-f-s-budget/" target="_blank" class="portfolio-card">
+            <div class="image-wrapper">
+                <div class="image-wrapper">
+                    <video autoplay muted loop playsinline>
+                      <source src="images/output.mp4" type="video/mp4">
+                      Your browser does not support the video tag.
+                    </video>
+                  </div>                              </div>
+            <p class="source-label">Mission Local</p>
+            <h3>What does the mayor directly control in San Francisco's budget?</h3>
+            <p class="description">I created this explainer that shows how the city's budget widdles down to a small pot of discretionary funds.</p>
+            <div class="tag-list">
+                <span class="tag">JavaScript</span>
+                <span class="tag">Illustrator</span>
+            </div>
+        </a>
+    
+        <a href="https://missionlocal.org/2025/05/explore-san-francisco-2024-2025-budget/" target="_blank" class="portfolio-card">
+            <div class="image-wrapper">
+                <img src="images/budget.jpg" alt="Election results map">
+            </div>
+            <p class="source-label">Mission Local</p>
+            <h3>Unpacking San Francisco's $15.9 billion budget</h3>
+            <p class="description">The city publishes its budget in a lengthy PDF file. Here it is broken down into interactive charts.</p>
+            <div class="tag-list">
+                <span class="tag">Python</span>
+                <span class="tag">d3.js</span>
+            </div>
+        </a>
+
+        <a href="https://missionlocal.org/2025/05/sfpd-police-officer-map-private-security-10b/" target="_blank" class="portfolio-card">
+            <div class="image-wrapper">
+                <img src="images/police.png" alt="Election results map">
+            </div>
+            <p class="source-label">Mission Local</p>
+            <h3>Here's where SFPD officers are working private security gigs</h3>
+            <p class="description">SFPD says its police officers working as security guards are "out in the community" across San Francisco. After geocoding records that show security gig shifts - we found that those officers are mostly working downtown.</p>
+            <div class="tag-list">
+                <span class="tag">Python</span>
+                <span class="tag">Datawrapper</span>
+            </div>
+        </a>
+    
+        <a href="https://missionlocal.org/sf-mayor-lurie-policy-tracker/" target="_blank" class="portfolio-card">
+            <div class="image-wrapper">
+                <img src="images/tracker.jpg" alt="Election results map">
+            </div>
+            <p class="source-label">Mission Local</p>
+            <h3>Tracking the mayor's major moves</h3>
+            <p class="description">I created a dataset of the new mayor's major moves, including appointments, legislation and orders. I used our reporting, legislative records and press releases to put it all together for this interactive database.</p>
+            <div class="tag-list">
+                <span class="tag">d3.js</span>
+            </div>
+        </a>
+    
+        <a href="https://missionlocal.org/2025/04/sf-drug-arrests-citations-16th-street-mission-data/" target="_blank" class="portfolio-card">
+            <div class="image-wrapper">
+                <img src="images/arrests.jpg" alt="Election results map">
+            </div>
+            <p class="source-label">Mission Local</p>
+            <h3>Over 1/4 of S.F.’s drug arrests or citations now come from 16th and Mission</h3>
+            <p class="description">I analyzed arrests data and found an uptick in arrests around an area that has become a "major priority" for the SFPD.</p>
+            <div class="tag-list">
+                <span class="tag">Python</span>
+                <span class="tag">Geopandas</span>
+            </div>
+        </a>
+
+        <a href="https://missionlocal.org/2024/11/s-f-election-takeaways-redistricting-likely-cost-dean-preston-benefitted-myrna-melgar/" target="_blank" class="portfolio-card">
+            <div class="image-wrapper">
+                <img src="images/redistricting.png" alt="Election results map">
+            </div>
+            <p class="source-label">Mission Local</p>
+            <h3>Redistricting likely cost Dean Preston, benefitted Myrna Melgar</h3>
+            <p class="description">Redistricting redrew electoral districts in 2022, changing the outcome of the district elections in 2024.</p>
+            <div class="tag-list">
+                <span class="tag">QGIS</span>
+                <span class="tag">Python</span>
+                <span class="tag">Illustrator</span>
+            </div>
+        </a>
+    
+        <a href="https://missionlocal.org/2024/12/sf-election-november-2024-how-did-your-neighbors-vote/" target="_blank" class="portfolio-card">
+            <div class="image-wrapper">
+                <img src="images/explore.jpg" alt="Election results map">
+            </div>
+            <p class="source-label">Mission Local</p>
+            <h3>How did your neighbors vote in the November 2024 election?</h3>
+            <p class="description">An interactive map where readers can select a precinct, neighborhood or district and see how their neighbors voted compared to the rest of the city.</p>
+            <div class="tag-list">
+                <span class="tag">Mapbox</span>
+                <span class="tag">JavaScript</span>
+            </div>
+        </a>
+    
+        <a href="https://missionlocal.org/2024/11/election-2024-see-results-across-san-francisco/" target="_blank" class="portfolio-card">
+            <div class="image-wrapper">
+                <img src="images/results.jpg" alt="Election results map">
+            </div>
+            <p class="source-label">Mission Local</p>
+            <h3>San Francisco's general election results</h3>
+            <p class="description">Interactive maps and charts of the 2024 election results across San Francisco precincts.</p>
+            <div class="tag-list">
+                <span class="tag">Python</span>
+                <span class="tag">Mapbox</span>
+                <span class="tag">Datatables</span>
+                <span class="tag">JavaScript</span>
+            </div>
+        </a>
+    
     </div>
-  </section>
+    
 
-  <section id="tab2" class="tab-content" style="display: none;">
-    <!-- Future work, alternate content, or interactive tab -->
-  </section>
-<br>
-  <footer class="column">
-    <p>© 2025 — Kelly Waldron</p>
-  </footer>
 
-  <script type="text/javascript" src="script.js"></script>
+    </div>
+    <br>
+    <footer class="column">
+        <p>© 2025 — Kelly Waldron</p>
+    </footer>
+
+    <script type="text/javascript" src="script.js"></script>
 </body>
 
 </html>
