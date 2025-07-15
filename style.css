@@ -16,6 +16,13 @@ body {
 	margin: 40px auto;
 }
 
+@media screen and (max-width: 768px) {
+	.column {
+	  margin: 20px 10px;
+	  text-align: left;
+	}
+  }
+  
 /* Typography */
 h1 {
 	font-size: 30px;
