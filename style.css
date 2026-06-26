@@ -3,7 +3,7 @@ body {
 	padding-left: 10px;
 	padding-right: 10px;
 	margin: 0;
-	background-color: #fff;
+	background-color: #fffef5;
 }
 
 .story {
@@ -85,6 +85,7 @@ a {
 
 a:hover {
 	color: #adc1a5;
+		/* color: #eda472	 */
 }
 
 /* Contact and Links Styling */
@@ -125,7 +126,7 @@ hr {
 
 /* Label Colors */
 .label1 {
-	background-color: #99cc99;
+	background-color: #eda472;
 }
 
 .label2 {
@@ -255,7 +256,7 @@ hr {
   
   /* Individual tag */
   .tag {
-	background-color: #e4ede4;
+	background-color: rgb(237,164,114, 0.5);
 	font-size: 12px;
 	padding: 4px 8px;
 	border-radius: 12px;
